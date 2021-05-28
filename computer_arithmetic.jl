@@ -154,5 +154,5 @@ p(x) = a0 + x(a1 + x(a2 + ... + x(an−1 + x(an))...)).
 Julia's `evalpoly` uses Horner's method
 =#
 
-# evaluate 1+2x+x^2 at x=1
+# evaluate 1+2x+x^2 at x=4
 evalpoly(4, (1,2,1))
